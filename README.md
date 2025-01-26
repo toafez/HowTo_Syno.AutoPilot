@@ -132,4 +132,4 @@ Nun ist es jedem selbst überlassen, was das Shell-Skript machen soll. Da es zur
 
 - Damit hast du erfolgreich eine Hyper Backup Aufgabe mit AutoPilot verknüpft. Damit die Aufgabe in Zukunft automatisch beim Einstecken des externen Datenträgers in dein Synology NAS ausgeführt wird, musst du noch die Überwachung in AutoPilot aktivieren. Außerdem kannst du auswählen, wie sich AutoPilot nach der Ausführung der Aufgabe verhalten soll und ob ein optisches und akustisches Signal ausgegeben werden soll.
 
-![40_AutoPilot-Einrichtung](/images/40_AutoPilot-Einrichtung.png)
+![40_AutoPilot-Ausfuehrung](/images/40_AutoPilot-Ausfuehrung.png)
