@@ -14,7 +14,7 @@
 
 ## AutoPilot installieren
 
-- Melde dich am DistStation Manager (kurz DSM) deines Synology NAS mit einem Konto an, das zur Gruppe der Administratoren (administrators) gehört. Navigiere anschließend zu **DSM-Hauptmenü > Paket-Zentrum** und klick rechts auf die Schaltfläche **Manuelle Installation**
+- Melde dich am DiskStation Manager (kurz DSM) deines Synology NAS mit einem Konto an, das zur Gruppe der Administratoren (administrators) gehört. Navigiere anschließend zu **DSM-Hauptmenü > Paket-Zentrum** und klick rechts auf die Schaltfläche **Manuelle Installation**
 
   ![20_AutoPilot-Installation](/images/20_AutoPilot-Installation.png)
 
@@ -92,7 +92,7 @@
 
   ![32_AutoPilot-Einrichtung](/images/32_AutoPilot-Einrichtung.png)
 
-- Nach einem erneuten Klick auf das Dropdown-Menü Externe Datenträger` werden nun weitere Informationen zum Speicherort und Dateinamen des Shell-Skripts für den zuvor ausgewählten Datenträger angezeigt (1).
+- Nach einem erneuten Klick auf das Dropdown-Menü `Externe Datenträger` werden nun weitere Informationen zum Speicherort und Dateinamen des Shell-Skripts für den zuvor ausgewählten Datenträger angezeigt (1).
 
 - Das Link-Symbol auf der rechten Seite wurde durch ein Terminal-Symbol und ein Mülleimer-Symbol ersetzt. Durch Klicken auf den Mülleimer wird die Verbindung zum Shell-Skript getrennt, das Shell-Skript selbst wird jedoch nicht gelöscht.
 
@@ -102,7 +102,7 @@
 
   ![34_AutoPilot-Einrichtung](/images/34_AutoPilot-Einrichtung.png)
 
-- Zusätzlich wird im Stammverzeichnis des externen Datenträgers eine leere Datei mit dem Namen `autopilot` erstellt. Diese Datei wird später vom UDEV-Gerätetreiber, der während der Einrichtung von AutoPilot installiert wird, als Indikator verwendet. Zusammen mit der eindeutigen UUID jedes Datenträgers bzw. jeder Partition wird so die Verbindung zum eigentlich ausführenden Shell-Skript hergestellt.
+- Zusätzlich wird im Stammverzeichnis des externen Datenträgers eine leere Datei mit dem Namen `autopilot` erstellt. Diese Datei wird später vom UDEV-Gerätetreiber, der während der Einrichtung von AutoPilot installiert wurde, als Indikator verwendet. Zusammen mit der eindeutigen UUID jedes Datenträgers bzw. jeder Partition wird so die Verbindung zum eigentlich ausführenden Shell-Skript hergestellt.
 
   ![35_AutoPilot-Einrichtung](/images/35_AutoPilot-Einrichtung.png)
 
